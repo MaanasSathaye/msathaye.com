@@ -1,13 +1,24 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
+import Navigation from './components/Navigation'
+import Home from './pages/Home'
+import About from './pages/About'
+import Posts from './pages/Thoughts'
 
 function App() {
   return (
-    <div className="blog-container">
-      <h1>Why Hello There</h1>
-    </div>
+    <Router>
+      <div className="blog-container">
+        <main>
+        <Navigation />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/thoughts" element={<Posts />} />
+          </Routes>
+        </main>
+      </div>
+    </Router>
   )
 }
 
