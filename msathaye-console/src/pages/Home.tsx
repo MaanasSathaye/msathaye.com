@@ -1,4 +1,5 @@
 import ImageHome from '../components/ImageHome'
+import Footer from '../components/Footer'
 
 const Home = () => {
     return (
@@ -6,6 +7,7 @@ const Home = () => {
         <h1>Maanas Sathaye</h1>
         <h2>(maw-niss saw-tay)</h2>
         <ImageHome />
+        <Footer />
       </div>
     )
   }
