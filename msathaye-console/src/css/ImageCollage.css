@@ -37,12 +37,3 @@
     z-index: 1;
     transform: rotate(-2deg);
   }
-
-  .image-4 {
-    left: 50%;
-    transform: translateX(-50%);
-    top: 0;
-    z-index: 1;
-    max-width: 800px;
-    width: 100%;
-}

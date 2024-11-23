@@ -1,0 +1,22 @@
+.image-home {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 4rem;
+  }
+  
+  .home-image {
+    position: absolute;
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* transition: transform 0.3s ease; */
+  }
+  
+  /* .collage-image:hover {
+    transform: scale(1.08);
+  } */
+  
+  .image-4 {
+    top: 0;
+  }
