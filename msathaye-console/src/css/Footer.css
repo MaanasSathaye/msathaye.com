@@ -1,26 +1,26 @@
 .social-links {
-    display: flex;
-    justify-content: flex-start;
-    gap: 1.5rem;
-    margin-top: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.icon {
+  font-size: 1.8rem;
+  color: #333;
+  transition: transform 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .social-links {
+    gap: 1.2rem;
   }
-  
+
   .icon {
-    font-size: 1.8rem;
-    color: #333;
-    transition: transform 0.2s ease;
+    font-size: 1.5rem;
   }
-  
-  .icon:hover {
-    transform: scale(1.1);
-  }
-  
-  @media (max-width: 768px) {
-    .social-links {
-      gap: 1.2rem;
-    }
-    
-    .icon {
-      font-size: 1.5rem;
-    }
-  }
+}

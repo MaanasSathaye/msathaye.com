@@ -28,20 +28,49 @@
   text-decoration: underline;
 }
 
-.page {
+.homepage {
   padding: 1rem 0;
 }
 
-h1 {
+.homepage h1 {
   margin-bottom: 1.5rem;
 }
 
-h2 {
+.homepage h2 {
   margin-top: 0;
   margin-bottom: 0.2rem;
 }
 
-h3 {
+.homepage h3 {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+.page {
+  padding: 2rem 0;
+}
+
+.page h1 {
+  margin-bottom: 1.5rem;
+}
+
+.page h2 {
+  margin-top: 0;
+  margin-bottom: 0.2rem;
+}
+
+.page h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.page body {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.page ul {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 0.5rem;
 }

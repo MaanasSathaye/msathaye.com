@@ -8,13 +8,13 @@ import Posts from './pages/Posts'
 function App() {
   return (
     <Router>
-      <div className="blog-container">
+      <div className='blog-container'>
         <main>
-        <Navigation />
+          <Navigation />
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/posts" element={<Posts />} />
+            <Route path='/' element={<Home />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/posts' element={<Posts />} />
           </Routes>
         </main>
       </div>
