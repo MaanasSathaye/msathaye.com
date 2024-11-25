@@ -4,6 +4,16 @@
   padding: 0;
 }
 
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid;
+  margin: 1em 0;
+  padding: 0;
+  color: #333;
+}
+
 .blog-container {
   min-height: 100vh;
   background-color: #a1a5cc;
@@ -55,7 +65,7 @@
 }
 
 .page h2 {
-  margin-top: 0;
+  margin-top: 0.2rem;
   margin-bottom: 0.2rem;
 }
 
