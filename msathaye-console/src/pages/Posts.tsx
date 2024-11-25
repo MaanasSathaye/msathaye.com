@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import type { Post, Topic } from '../components/Posts'
 import '../css/Posts.css'
+import ER from '../content/Engineering-Resources'
 
 const TOPICS: Topic[] = [
   {
@@ -21,7 +22,8 @@ const POSTS: Post[] = [
     title: 'Engineering Resources',
     date: '2024-11-24',
     topic: 'engineering',
-    slug: 'engineering-resources'
+    slug: 'engineering-resources',
+    content: ER()
   }
 ]
 

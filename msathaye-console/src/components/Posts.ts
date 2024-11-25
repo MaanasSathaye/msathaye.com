@@ -4,6 +4,7 @@ type Post = {
   date: string
   topic: string
   slug: string
+  content: JSX.Element
 }
 
 type Topic = {

@@ -4,7 +4,7 @@ import Navigation from './components/Navigation'
 import Home from './pages/Home'
 import About from './pages/About'
 import Posts from './pages/Posts'
-// import Post from './components/Post'
+import PostPage from './components/PostPage'
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/posts' element={<Posts />} />
+            <Route path='/posts/:slug' element={<PostPage />} />
           </Routes>
         </main>
       </div>
