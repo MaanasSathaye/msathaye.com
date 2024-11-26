@@ -4,16 +4,19 @@
   height: auto;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: left;
 }
 
 .home-image {
   position: relative;
-  max-width: 60%;
+  width: 60%;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  display: block;
 }
 
-.image-4 {
-  width: 100%;
+@media (max-width: 768px) {
+  .home-image {
+    width: 90%;
+  }
 }
