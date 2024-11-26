@@ -27,6 +27,16 @@ const About = () => {
           </a>
         </li>
       </ul>
+      <br></br>
+      <hr />
+      <h2>Projects</h2>
+      <ul>
+        <a href='https://github.com/MaanasSathaye/swiss' target='_blank' rel='noopener noreferrer'>
+          Swiss
+        </a>{' '}
+        - investigating load balancing algorithms and (eventually) testing my own.
+      </ul>
+      <br></br>
       <hr />
       <h2>Work</h2>
       <body>

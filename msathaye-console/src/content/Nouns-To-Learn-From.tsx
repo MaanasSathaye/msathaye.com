@@ -3,8 +3,7 @@ const ER = () => {
     <div className='page'>
       <body>
         These are resources I've compiled related to &quot;People, Places, and Things&quot; in
-        software. These will be updated periodically with update announcements coming (most-likely)
-        on BlueSky.
+        software. These will be updated with announcements on BlueSky.
       </body>
       <br></br>
       <h3>Databases</h3>
@@ -77,6 +76,17 @@ const ER = () => {
             rel='noopener noreferrer'
           >
             Testing Distributed Systems
+          </a>
+        </li>
+        <li>
+          Fly.io&apos;s Distributed Systems{' '}
+          <a href='https://fly.io/dist-sys/1/' target='_blank' rel='noopener noreferrer'>
+            Challenge
+          </a>
+        </li>
+        <li>
+          <a href='https://sadservers.com/' target='_blank' rel='noopener noreferrer'>
+            SadServers.com
           </a>
         </li>
       </ul>
