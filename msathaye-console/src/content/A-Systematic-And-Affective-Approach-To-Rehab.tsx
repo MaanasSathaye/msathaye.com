@@ -131,7 +131,7 @@ const ASAAATR = () => {
         </a>{' '}
         brings up a good point. So far, I&apos;ve dogged on passive recovery with no empathetic
         considerations. I should clarify that I like passive recovery for{' '}
-        <em>managing my emotional state</em> and getting that sweet endorphin hit. Massages feel and
+        <em>managing my emotional state</em> and getting that sweet endorphin hit. Massages and
         hot/cold therapy feel good, man! In a hypothetical scenario where I&apos;m forced to choose
         between complete rest and passive recovery, I&apos;m choosing the latter every time; that
         scenario has yet to happen to me. But motivation, like strength, attention span, and energy,
