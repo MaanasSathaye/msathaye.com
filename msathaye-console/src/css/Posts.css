@@ -47,9 +47,13 @@
 
 .post-title {
     text-decoration: none;
-    color: inherit;
+    color: #0000EE;
     flex: 1;
     min-width: 200px;
+}
+
+.post-title:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
