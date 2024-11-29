@@ -30,7 +30,7 @@ const ASAAATR = () => {
         this is because young adults are starting to view healthcare as self-care (and enjoy the
         control that comes with it).<sup>2</sup> But, as a working individual with a busy schedule,
         I don&apos;t overcomplicate rehab and recovery; unlike Lebron James, I don&apos;t get paid
-        to stay in shape all year and I&apos;m short a few zeroes to afford that anyway. I usually
+        to stay in shape all year, and I&apos;m short a few zeroes to afford that anyway. I usually
         start with a &quot;systems check&quot;.
       </body>
       <br></br>
@@ -108,7 +108,7 @@ const ASAAATR = () => {
         the act of increasing the threshold at which pain occurs by lowering the intesity of pain
         and decreasing the incidence rate, I&apos;ve found the listed active recovery methods to be
         more beneficial for me. I average 10k steps/day thanks to my dogs (that number is
-        arbitrarily set as my goal, ther&apos;s little to no research for that benchmark). As a
+        arbitrarily set as my goal, there&apos;s little to no research for that benchmark). As a
         weightlifter, I am no stranger to low back pain, knee pain, shoulder pain, and more. Rest
         has been shown to be less effective in return to activity and future injury prevention in
         patients with low back pain; the same can be said for knee and shoulder pain.
