@@ -60,6 +60,7 @@ hr {
   padding: 2rem 0;
   max-width: 100%;
   overflow-x: hidden;
+  overflow-wrap: break-word;
 }
 
 .page h1 {
@@ -82,7 +83,12 @@ hr {
   font-size: 24px;
   font-weight: 400;
   width: 100%;
+  display: block;
+  overflow-wrap: break-word;
   word-wrap: break-word;
+  hyphens: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .page ul {
