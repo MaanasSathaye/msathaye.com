@@ -87,8 +87,6 @@ hr {
   overflow-wrap: break-word;
   word-wrap: break-word;
   hyphens: auto;
-  padding-right: 1rem;
-  padding-left: 1rem;
 }
 
 .page ul {
