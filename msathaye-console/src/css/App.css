@@ -96,6 +96,8 @@ hr {
   margin: 1rem 0;
   font-size: 24px;
   font-weight: 400;
+  width: 100%;
+  table-layout: fixed;
 }
 
 .page th,
@@ -103,11 +105,19 @@ hr {
   border: 1px solid #333;
   padding: 0.5rem 1rem;
   text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
-.page th {
-  background-color: #a1a5cc;
-  font-weight: 500;
+@media (max-width: 768px) {
+  .page table {
+    font-size: 16px;
+  }
+
+  .page th,
+  .page td {
+    padding: 0.25rem 0.5rem;
+  }
 }
 
 .page sup {
