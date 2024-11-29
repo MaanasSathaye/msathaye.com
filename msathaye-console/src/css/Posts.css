@@ -27,13 +27,16 @@
 
 .post-line {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items: baseline;
     margin: 0.5rem 0;
     font-size: 1.2rem;
+    gap: 0.5rem;
 }
 
 .post-date {
     color: #333;
+    white-space: nowrap;
 }
 
 .separator {
@@ -44,37 +47,22 @@
 
 .post-title {
     text-decoration: none;
+    color: inherit;
+    flex: 1;
+    min-width: 200px;
 }
 
-.post-title:hover {
-    text-decoration: underline;
-}
+@media (max-width: 768px) {
+    .post-line {
+        flex-direction: column;
+        gap: 0.25rem;
+    }
 
-/* .post-content {
-    max-width: 800px;
-    margin: 0 auto;
-    line-height: 1.6;
-}
+    .separator {
+        display: none;
+    }
 
-.post-content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
+    .post-title {
+        font-size: 1.4rem;
+    }
 }
-
-.post-content h2 {
-    font-size: 1.8rem;
-    margin: 2rem 0 1rem;
-}
-
-.post-content p {
-    margin: 1rem 0;
-}
-
-.post-content ul {
-    margin: 1rem 0;
-    padding-left: 2rem;
-}
-
-.post-content li {
-    margin: 0.5rem 0;
-} */
