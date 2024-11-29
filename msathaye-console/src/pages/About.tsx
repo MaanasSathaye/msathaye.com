@@ -4,9 +4,9 @@ const About = () => {
       <body>
         I graduated with a B.S. in Chemical Engineering from UT Austin. Upon graduating, I had two
         choices in Texas: oil and gas (in the middle of nowhere) or the &quot;materials science
-        internship lottery&quot; (1 available position between thousands of graduates). I found a
-        third option - working minimum wage as a &quot;Chemical Software Intern&quot;. It turns out
-        software is a lot like chemical engineering - complex systems relying on precision,
+        internship lottery&quot; (1 available position between thousands of graduates). I went with
+        the third option - working minimum wage as a &quot;Chemical Software Intern&quot;. It turns
+        out software is a lot like chemical engineering - complex systems relying on precision,
         creativity, a bit of physics, and many interconnected processes.
       </body>
       <br></br>

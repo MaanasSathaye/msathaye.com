@@ -86,3 +86,26 @@ hr {
   font-weight: 400;
   margin-top: 0.5rem;
 }
+
+.page table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.page th,
+.page td {
+  border: 1px solid #333;
+  padding: 0.5rem 1rem;
+  text-align: left;
+}
+
+.page th {
+  background-color: #a1a5cc;
+  font-weight: 500;
+}
+
+.page sup {
+  font-size: 14px;
+}

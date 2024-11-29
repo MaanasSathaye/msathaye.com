@@ -66,7 +66,14 @@ const ER = () => {
           <a href='https://pdos.csail.mit.edu/' target='_blank' rel='noopener noreferrer'>
             MIT PDOS&apos;
           </a>{' '}
-          research and publications
+          research, publications, and{' '}
+          <a
+            href='https://pdos.csail.mit.edu/6.824/index.html'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            distributed systems course.
+          </a>
         </li>
         <li>
           Andrey Satarin&apos;s{' '}
@@ -90,6 +97,8 @@ const ER = () => {
           </a>
         </li>
       </ul>
+      <br></br>
+      <span>Last Updated: 2024-11-27</span>
     </div>
   )
 }

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import type { Post, Topic } from '../components/Posts'
 import '../css/Posts.css'
 import ER from '../content/Nouns-To-Learn-From'
+import ASAAATR from '../content/A-Systematic-And-Affective-Approach-To-Rehab'
 
 export const TOPICS: Topic[] = [
   {
@@ -19,11 +20,19 @@ export const TOPICS: Topic[] = [
 export const POSTS: Post[] = [
   {
     id: 1,
-    title: 'Nouns To Learn From',
-    date: '2024-11-25',
+    title: 'Engineering Nouns To Learn From',
+    date: '2024-11-27',
     topic: 'engineering',
-    slug: 'nouns-to-learn-from',
+    slug: 'engineering-nouns-to-learn-from',
     content: ER()
+  },
+  {
+    id: 2,
+    title: 'Rehab & Recovery: A Systematic, Affective, and Opinionated Approach',
+    date: '2024-11-29',
+    topic: 'sports',
+    slug: 'approaching-rehab-and-recovery',
+    content: ASAAATR()
   }
 ]
 

@@ -13,7 +13,7 @@ const PostPage = () => {
     <div className='page'>
       <h2>{post.title}</h2>
       <div className='post-metadata'>
-        <span>{new Date(post.date).toLocaleDateString()}</span>
+        <span>{post.date}</span>
       </div>
       <article className='post-content'>{post.content}</article>
     </div>
