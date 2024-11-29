@@ -129,10 +129,6 @@ hr {
 }
 
 @media (max-width: 768px) {
-  .page {
-    padding: 1rem;
-  }
-
   .page body {
     font-size: 16px;
   }
