@@ -86,13 +86,14 @@ hr {
   display: block;
   overflow-wrap: break-word;
   word-wrap: break-word;
-  hyphens: auto;
 }
 
 .page ul {
   font-size: 24px;
   font-weight: 400;
   margin-top: 0.5rem;
+  width: 100%;
+  display: block;
 }
 
 .page table {
@@ -111,17 +112,6 @@ hr {
   text-align: left;
   word-wrap: break-word;
   overflow-wrap: break-word;
-}
-
-@media (max-width: 768px) {
-  .page table {
-    font-size: 16px;
-  }
-
-  .page th,
-  .page td {
-    padding: 0.25rem 0.5rem;
-  }
 }
 
 .page sup {
@@ -143,5 +133,20 @@ hr {
 
   .page h3 {
     font-size: 18px;
+  }
+
+  .page ul {
+    font-size: 16px;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+  }
+
+  .page table {
+    font-size: 16px;
+  }
+
+  .page th,
+  .page td {
+    padding: 0.25rem 0.5rem;
   }
 }
