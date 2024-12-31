@@ -1,10 +1,10 @@
 import '../css/ImageHome.css'
-import image4 from '../assets/4.png'
+import smokingbigfoot from '../assets/smoking-bigfoot.png'
 
 const HomeImage = () => {
   return (
     <div className='image-home'>
-      <img src={image4} alt='image-4' className='home-image image-4' />
+      <img src={smokingbigfoot} alt='image-4' className='home-image smokingbigfoot' />
     </div>
   )
 }

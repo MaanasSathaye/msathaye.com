@@ -3,6 +3,7 @@ import type { Post, Topic } from '../components/Posts'
 import '../css/Posts.css'
 import ER from '../content/Nouns-To-Learn-From'
 import ASAAATR from '../content/A-Systematic-And-Affective-Approach-To-Rehab'
+import ALYIR from '../content/A-Literary-Year-In-Review'
 
 export const TOPICS: Topic[] = [
   {
@@ -33,6 +34,14 @@ export const POSTS: Post[] = [
     topic: 'sports',
     slug: 'approaching-rehab-and-recovery',
     content: ASAAATR()
+  },
+  {
+    id: 3,
+    title: 'A Literary Year In Review: 2024 (and earlier) Edition',
+    date: '2024-12-31',
+    topic: '',
+    slug: 'literature-year-in-review',
+    content: ALYIR()
   }
 ]
 
