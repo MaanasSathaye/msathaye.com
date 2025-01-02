@@ -16,8 +16,8 @@ const ALYIR = () => {
       <body>
         At the end of the year, I like to post some books and papers (both good and bad) I've read
         since January 1<sup>st</sup> and give some personal thoughts and recommendations. I usually
-        do this on Instagram stories, but that platform has started to fall out of favor with me.
-        Since this is the first edition on my website, I'll post a non-exhaustive list of my
+        do this on Instagram stories, but keeping a permanent running list is something I've wanted
+        to do. Since this is the first edition on my website, I'll post a non-exhaustive list of my
         all-time favorite books to provide readers some context.
       </body>
       <br></br>
@@ -146,7 +146,10 @@ const ALYIR = () => {
       >
         <img src={dn} alt='Dopamine Nation Book Cover' style={{ width: '250px', height: 'auto' }} />
       </a>
-      <body>Cover states it well already.</body>
+      <body>
+        Cover states it well already. Wish this book had more neuroscience considerations, but the
+        subject matter makes it relevant enough.
+      </body>
       <br></br>
       <h3>Fathers and Sons - Ivan Turgenev</h3>
       <a
