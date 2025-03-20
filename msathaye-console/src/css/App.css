@@ -289,8 +289,7 @@ hr {
 .nav-links {
   display: flex;
   gap: 1.5rem;
-  margin-bottom: 2rem;
-  padding-top: 2rem;
+  margin-bottom: 4rem;
 }
 
 .social-links {
@@ -472,6 +471,10 @@ ol li::before {
 @media (max-width: 768px) {
   .content-section {
     padding: 2rem 1rem 1rem 1rem;
+  }
+
+  .nav-links {
+    margin-bottom: 3rem;
   }
 
   ol {
