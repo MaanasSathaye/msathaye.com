@@ -50,36 +50,38 @@ const Posts = () => {
   const filteredPosts = selectedTopic ? POSTS.filter((post) => post.topic === selectedTopic) : POSTS
 
   return (
-    <div className='page'>
-      <div className='topics-filter'>
-        <button
-          className={`topic-button ${!selectedTopic ? 'active' : ''}`}
-          onClick={() => setSelectedTopic(null)}
-        >
-          All Topics
-        </button>
-        {TOPICS.map((topic) => (
+    <div className='content-section'>
+      <div className='card'>
+        <div className='topics-filter'>
           <button
-            key={topic.slug}
-            className={`topic-button ${selectedTopic === topic.slug ? 'active' : ''}`}
-            onClick={() => setSelectedTopic(topic.slug)}
+            className={`topic-button ${!selectedTopic ? 'active' : ''}`}
+            onClick={() => setSelectedTopic(null)}
           >
-            {topic.name}
+            All Topics
           </button>
-        ))}
-      </div>
+          {TOPICS.map((topic) => (
+            <button
+              key={topic.slug}
+              className={`topic-button ${selectedTopic === topic.slug ? 'active' : ''}`}
+              onClick={() => setSelectedTopic(topic.slug)}
+            >
+              {topic.name}
+            </button>
+          ))}
+        </div>
 
-      {filteredPosts
-        .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-        .map((post) => (
-          <div key={post.id} className='post-line'>
-            <span className='post-date'>{new Date(post.date).toISOString().split('T')[0]}</span>
-            <span className='separator'> - </span>
-            <a href={`/posts/${post.slug}`} className='post-title'>
-              {post.title}
-            </a>
-          </div>
-        ))}
+        {filteredPosts
+          .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+          .map((post) => (
+            <div key={post.id} className='post-line'>
+              <span className='post-date'>{new Date(post.date).toISOString().split('T')[0]}</span>
+              <span className='separator'> - </span>
+              <a href={`/posts/${post.slug}`} className='post-title'>
+                {post.title}
+              </a>
+            </div>
+          ))}
+      </div>
     </div>
   )
 }
