@@ -54,18 +54,15 @@ hr {
 }
 
 .navigation {
-  margin-top: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+  font-size: 36px;
 }
 
 .navigation a {
-  color: #333;
   text-decoration: none;
-  margin-right: 1.5rem;
-  font-size: 2rem;
-}
-
-.navigation a:hover {
-  text-decoration: underline;
+  color: inherit;
 }
 
 .homepage {
@@ -220,6 +217,15 @@ hr {
 
   .card a {
     padding: 0.4rem 0;
+  }
+
+  .navigation {
+    margin-bottom: 3rem;
+    font-size: 20px;
+  }
+
+  ol {
+    padding-left: 1.5rem;
   }
 }
 
@@ -466,18 +472,4 @@ ol li {
 
 ol li::before {
   display: none;
-}
-
-@media (max-width: 768px) {
-  .content-section {
-    padding: 2rem 1rem 1rem 1rem;
-  }
-
-  .nav-links {
-    margin-bottom: 3rem;
-  }
-
-  ol {
-    padding-left: 1.5rem;
-  }
 }
