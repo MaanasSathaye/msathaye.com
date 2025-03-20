@@ -290,6 +290,7 @@ hr {
   display: flex;
   gap: 1.5rem;
   margin-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .social-links {
@@ -449,13 +450,12 @@ body {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
-  padding-top: 3rem;
 }
 
 ol {
   list-style-type: decimal;
   margin: 1rem 0;
-  padding-left: 0;
+  padding-left: 2.5rem;
 }
 
 ol li {
@@ -463,14 +463,10 @@ ol li {
   line-height: 1.6;
   margin: 0.75rem 0;
   font-weight: normal;
-  padding-left: 2.5rem;
-  position: relative;
 }
 
 ol li::before {
-  position: absolute;
-  left: 1rem;
-  content: counter(list-item) ".";
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -478,11 +474,7 @@ ol li::before {
     padding: 2rem 1rem 1rem 1rem;
   }
 
-  ol li {
-    padding-left: 2rem;
-  }
-
-  ol li::before {
-    left: 0.5rem;
+  ol {
+    padding-left: 1.5rem;
   }
 }
