@@ -37,7 +37,7 @@ const ALYIR = () => {
         recommend it for anyone interested in interpersonal connections.
       </h3>
 
-      <h3>Project Hail Mary - Andy Weir</h3>
+      <p>Project Hail Mary - Andy Weir</p>
       <a
         href='https://www.amazon.com/Project-Hail-Mary-Andy-Weir/dp/0593135229'
         target='_blank'
@@ -51,7 +51,7 @@ const ALYIR = () => {
         Hope the upcoming movie holds up to the book.
       </h3>
 
-      <h3>The Spy and The Traitor - Ben Macintyre</h3>
+      <p>The Spy and The Traitor - Ben Macintyre</p>
       <a
         href='https://www.amazon.com/Spy-Traitor-Greatest-Espionage-Story/dp/1101904216'
         target='_blank'
@@ -64,7 +64,7 @@ const ALYIR = () => {
         you're interested in any of those.
       </h3>
 
-      <h3>Writing an Interpreter in Go - Thorsten Ball</h3>
+      <p>Writing an Interpreter in Go - Thorsten Ball</p>
       <a
         href='https://www.amazon.com/Writing-Interpreter-Go-Thorsten-Ball/dp/300055808X'
         target='_blank'
@@ -78,7 +78,7 @@ const ALYIR = () => {
         examples and explanations.
       </h3>
 
-      <h3>The Anxious Generation - Dr. Jonathan Haidt</h3>
+      <p>The Anxious Generation - Dr. Jonathan Haidt</p>
       <a
         href='https://www.amazon.com/Anxious-Generation-Rewiring-Childhood-Epidemic/dp/0593655036'
         target='_blank'
@@ -97,7 +97,7 @@ const ALYIR = () => {
         double blind, RCTs.
       </h3>
 
-      <h3>What Every Programmer Should Know About Memory - Ulrich Drepper</h3>
+      <p>What Every Programmer Should Know About Memory - Ulrich Drepper</p>
       <a
         href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf'
         target='_blank'
