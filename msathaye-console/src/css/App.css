@@ -445,6 +445,13 @@ body {
   text-decoration: underline;
 }
 
+.content-section {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
 ol {
   list-style-type: decimal;
   margin: 1rem 0;
@@ -456,14 +463,26 @@ ol li {
   line-height: 1.6;
   margin: 0.75rem 0;
   font-weight: normal;
-  padding-left: 2rem;
+  padding-left: 2.5rem;
+  position: relative;
 }
 
-ol li a {
-  color: #0066cc;
-  text-decoration: none;
+ol li::before {
+  position: absolute;
+  left: 1rem;
+  content: counter(list-item) ".";
 }
 
-ol li a:hover {
-  text-decoration: underline;
+@media (max-width: 768px) {
+  .content-section {
+    padding: 2rem 1rem 1rem 1rem;
+  }
+
+  ol li {
+    padding-left: 2rem;
+  }
+
+  ol li::before {
+    left: 0.5rem;
+  }
 }
