@@ -1,16 +1,14 @@
 const ER = () => {
   return (
     <div className='content-section'>
-      <h1>Engineering Nouns To Learn From</h1>
-      <p className='post-date'>2024-11-27</p>
-
-      <p>
+      <br></br>
+      <h3>
         These are resources I've compiled related to "People, Places, and Things" in software. These
         will be updated with announcements on BlueSky.
-      </p>
-
+      </h3>
+      <br></br>
       <h2>Databases</h2>
-      <ul>
+      <ul className='resource-list'>
         <li>
           <a
             href='https://15445.courses.cs.cmu.edu/fall2024/'
@@ -54,7 +52,7 @@ const ER = () => {
       </ul>
 
       <h2>Distributed Systems</h2>
-      <ul>
+      <ul className='resource-list'>
         <li>
           Jeff Hodges&apos;{' '}
           <a
