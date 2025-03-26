@@ -1,6 +1,7 @@
 import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
 import { SiBluesky } from 'react-icons/si'
 import '../css/Footer.css'
+import { FaXTwitter } from 'react-icons/fa6'
 
 const Footer = () => {
   return (
@@ -20,6 +21,9 @@ const Footer = () => {
         rel='noopener noreferrer'
       >
         <FaLinkedin className='icon' />
+      </a>
+      <a href='https://x.com/MaanasSathaye' target='_blank' rel='noopener noreferrer'>
+        <FaXTwitter className='icon' />
       </a>
     </div>
   )
