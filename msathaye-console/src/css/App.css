@@ -473,3 +473,37 @@ ol li {
 ol li::before {
   display: none;
 }
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.book-title {
+  font-size: 24px;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+
+h3:not(.book-title) {
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 28px;
+  }
+
+  .book-title,
+  h3 {
+    font-size: 20px;
+  }
+}

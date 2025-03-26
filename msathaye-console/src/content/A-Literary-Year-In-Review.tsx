@@ -22,7 +22,7 @@ const ALYIR = () => {
       </h3>
 
       <h2>2024</h2>
-      <p>Behave - Dr. Robert Sapolsky</p>
+      <h3 className='book-title'>Behave - Dr. Robert Sapolsky</h3>
       <a
         href='https://www.amazon.com/Behave-Biology-Humans-Best-Worst/dp/009957506X'
         target='_blank'
@@ -37,7 +37,7 @@ const ALYIR = () => {
         recommend it for anyone interested in interpersonal connections.
       </h3>
 
-      <p>Project Hail Mary - Andy Weir</p>
+      <h3 className='book-title'>Project Hail Mary - Andy Weir</h3>
       <a
         href='https://www.amazon.com/Project-Hail-Mary-Andy-Weir/dp/0593135229'
         target='_blank'
@@ -51,7 +51,7 @@ const ALYIR = () => {
         Hope the upcoming movie holds up to the book.
       </h3>
 
-      <p>The Spy and The Traitor - Ben Macintyre</p>
+      <h3 className='book-title'>The Spy and The Traitor - Ben Macintyre</h3>
       <a
         href='https://www.amazon.com/Spy-Traitor-Greatest-Espionage-Story/dp/1101904216'
         target='_blank'
@@ -64,7 +64,7 @@ const ALYIR = () => {
         you're interested in any of those.
       </h3>
 
-      <p>Writing an Interpreter in Go - Thorsten Ball</p>
+      <h3 className='book-title'>Writing an Interpreter in Go - Thorsten Ball</h3>
       <a
         href='https://www.amazon.com/Writing-Interpreter-Go-Thorsten-Ball/dp/300055808X'
         target='_blank'
@@ -78,7 +78,7 @@ const ALYIR = () => {
         examples and explanations.
       </h3>
 
-      <p>The Anxious Generation - Dr. Jonathan Haidt</p>
+      <h3 className='book-title'>The Anxious Generation - Dr. Jonathan Haidt</h3>
       <a
         href='https://www.amazon.com/Anxious-Generation-Rewiring-Childhood-Epidemic/dp/0593655036'
         target='_blank'
@@ -97,7 +97,9 @@ const ALYIR = () => {
         double blind, RCTs.
       </h3>
 
-      <p>What Every Programmer Should Know About Memory - Ulrich Drepper</p>
+      <h3 className='book-title'>
+        What Every Programmer Should Know About Memory - Ulrich Drepper
+      </h3>
       <a
         href='https://people.freebsd.org/~lstewart/articles/cpumemory.pdf'
         target='_blank'
@@ -116,7 +118,7 @@ const ALYIR = () => {
       </h3>
 
       <h2>My Goats</h2>
-      <p>The Sports Gene - David Epstein</p>
+      <h3 className='book-title'>The Sports Gene - David Epstein</h3>
       <a
         href='https://www.amazon.com/Sports-Gene-Extraordinary-Athletic-Performance/dp/161723012X'
         target='_blank'
@@ -126,7 +128,7 @@ const ALYIR = () => {
       </a>
       <h3>Remember what I said about science communication? Yeah, this one is excellent.</h3>
 
-      <p>Dopamine Nation - Dr. Anna Lembke</p>
+      <h3 className='book-title'>Dopamine Nation - Dr. Anna Lembke</h3>
       <a
         href='https://www.amazon.com/Dopamine-Nation-Finding-Balance-Indulgence/dp/152474672X'
         target='_blank'
@@ -139,7 +141,7 @@ const ALYIR = () => {
         subject matter makes it relevant enough.
       </h3>
 
-      <p>Fathers and Sons - Ivan Turgenev</p>
+      <h3 className='book-title'>Fathers and Sons - Ivan Turgenev</h3>
       <a
         href='https://www.amazon.com/Fathers-Sons-Penguin-Classics-Turgenev/dp/014144133X'
         target='_blank'
@@ -157,7 +159,7 @@ const ALYIR = () => {
         or slowly."
       </h3>
 
-      <p>Designing Data Intensive Applications - Martin Kleppman</p>
+      <h3 className='book-title'>Designing Data Intensive Applications - Martin Kleppman</h3>
       <a
         href='https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321'
         target='_blank'
@@ -169,9 +171,9 @@ const ALYIR = () => {
           style={{ width: '250px', height: 'auto' }}
         />
       </a>
-      <h3>HOG BOOK SUPREMACY.</h3>
+      <h3>hog book supremacy.</h3>
 
-      <p>The Sport is Steroids</p>
+      <h3 className='book-title'>The Sport is Steroids</h3>
       <a
         href='https://www.amazon.com/Sport-Steroids-Athletes-Quest-Records-ebook/dp/B08KT7MD9B'
         target='_blank'
