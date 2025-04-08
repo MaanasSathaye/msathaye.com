@@ -4,6 +4,7 @@ import '../css/Posts.css'
 import ER from '../content/Nouns-To-Learn-From'
 import ASAAATR from '../content/A-Systematic-And-Affective-Approach-To-Rehab'
 import ALYIR from '../content/A-Literary-Year-In-Review'
+import AAC from '../content/AI-Assisted-Coding'
 
 export const TOPICS: Topic[] = [
   {
@@ -42,6 +43,14 @@ export const POSTS: Post[] = [
     topic: '',
     slug: 'literature-year-in-review',
     content: ALYIR()
+  },
+  {
+    id: 4,
+    title: 'Some Thoughts on AI-Assisted Programming',
+    date: '2025-04-07',
+    topic: '',
+    slug: 'ai-assisted-coding',
+    content: AAC()
   }
 ]
 
