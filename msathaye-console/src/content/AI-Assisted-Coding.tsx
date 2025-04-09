@@ -35,6 +35,8 @@ const AAC = () => {
         people who cite this argument are also the first ones to tout that "software engineering is
         dead". Have you considered that the best prompt engineer is potentially a machine?
       </h3>
+      <h2>Virtue Signaling</h2>
+      <h3>stakeholder concerns, etc.</h3>
       <h2>Learning from High Performance Elsewhere</h2>
       <h3>
         There are many ways to explain this point, but the one that I think is the easiest to
