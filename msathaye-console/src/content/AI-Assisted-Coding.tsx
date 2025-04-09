@@ -31,7 +31,9 @@ const AAC = () => {
         understanding the best way to communicate with this human-made, mostly black box system help
         you in other areas of your life? If you're going to say 'it helps me communicate', I dare
         you to look at the last 100 request logs with your copilot. How many frustrated cap locks
-        arguments did you initiate? But, I digress. Do you see the point?
+        arguments did you initiate? But, I digress. Do you see the point? I also find that the
+        people who cite this argument are also the first ones to tout that "software engineering is
+        dead". Have you considered that the best prompt engineer is potentially a machine?
       </h3>
       <h2>Learning from High Performance Elsewhere</h2>
       <h3>
