@@ -44,6 +44,123 @@ body {
 
   .content-section,
   .page {
+    padding: 0;
+  }
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid;
+  margin: 1em 0;
+  padding: 0;
+  color: #333;
+}
+
+.navigation,
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+  font-size: 36px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.homepage {
+  padding: 1rem 0;
+}
+
+.homepage h1 {
+  margin-bottom: 1.5rem;
+}
+
+.homepage h2 {
+  margin-top: 0;
+  margin-bottom: 0.2rem;
+}
+
+.homepage h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.page {
+  display: block;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.page h1 {
+  margin-bottom: 1.5rem;
+  text-align: left;
+  width: 100%;
+}
+
+.page h2 {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.page h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.page body {
+  font-size: 24px;
+  font-weight: 400;
+  width: 100%;
+  display: block;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.page ul {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  width: 100%;
+  display: block;
+}
+
+.page table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 24px;
+  font-weight: 400;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.page th,
+.page td {
+  border: 1px solid #333;
+  padding: 0.5rem 1rem;
+  text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.page sup {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 0 1rem;
+  }
+
+  .content-section,
+  .page {
     padding: 0 0.5rem;
   }
 
@@ -57,7 +174,8 @@ body {
 
   .page h1 {
     font-size: 24px;
-    text-align: left;
+    padding: 0 1rem;
+    text-align: center;
   }
 
   .page h2 {
