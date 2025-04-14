@@ -12,7 +12,7 @@ const AAC = () => {
         >
           blog
         </a>{' '}
-        post. This is a highly contentious topic right now, but it's one I'm seeing not enough
+        post. This is a highly contentious topic right now, but it's one I'm not seeing enough
         humanistic evaluations on. Here's a take from a jaded engineer.
       </h3>
       <h2>Learning from High Performance Elsewhere</h2>
