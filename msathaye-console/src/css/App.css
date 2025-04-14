@@ -91,6 +91,7 @@ hr {
 
 .page h1 {
   margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .page h2 {
@@ -241,6 +242,21 @@ hr {
 
   .book-title {
     font-size: 18px;
+  }
+
+  .post-line {
+    flex-direction: column;
+    gap: 0.25rem;
+    margin: 1.5rem 0;
+  }
+
+  .post-title {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .post-date {
+    font-size: 14px;
   }
 }
 
@@ -413,17 +429,22 @@ hr {
 .post-line {
   margin: 1rem 0;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 0.5rem;
+  flex-wrap: nowrap;
+  width: 100%;
 }
 
 .post-date {
   color: #666;
+  white-space: nowrap;
 }
 
 .post-title {
   color: #0066cc;
   text-decoration: none;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .post-title:hover {
