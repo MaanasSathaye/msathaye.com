@@ -46,6 +46,11 @@ body {
   .page {
     padding: 0;
   }
+
+  .page h1 {
+    font-size: 24px;
+    text-align: left;
+  }
 }
 
 hr {
@@ -174,8 +179,7 @@ hr {
 
   .page h1 {
     font-size: 24px;
-    padding: 0 1rem;
-    text-align: center;
+    text-align: left;
   }
 
   .page h2 {

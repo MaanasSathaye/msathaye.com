@@ -95,7 +95,7 @@ const AAC = () => {
       <h3>
         Otherwise known as "all PR is good PR". This is a point Twitter-heads have pointed out
         already, but if a CEO is posting about how "AGI [will replace all swes, increases
-        productivity by 1000x, magic-8-ball-ai-bullishness-of-choice] please acknowledge the vested
+        productivity by 1000x, magic-8-ball-ai-bullishness-of-choice]" please acknowledge the vested
         interest and also check the job boards of said CEO's company. Please note this is distinctly
         different than saying 'I'm betting against this person', because that's also simply not
         true. Many of the established companies adding/pivoting-to AGI will find ways to survive
