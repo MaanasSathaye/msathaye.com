@@ -47,9 +47,9 @@
 
 .post-title {
     text-decoration: none;
-    color: #0000EE;
-    flex: 1;
-    min-width: 200px;
+    color: #0066cc;
+    font-size: 1.2rem;
+    line-height: 1.4;
 }
 
 .post-title:hover {
@@ -58,15 +58,26 @@
 
 @media (max-width: 768px) {
     .post-line {
-        flex-direction: column;
-        gap: 0.25rem;
+        padding: 0 1rem;
+        margin: 0.75rem 0;
     }
 
-    .separator {
-        display: none;
+    .post-date {
+        font-size: 14px;
     }
 
     .post-title {
-        font-size: 1.4rem;
+        font-size: 16px;
+    }
+
+    .topic-button {
+        font-size: 14px;
+        padding: 0.4rem 0.8rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .post-line {
+        padding: 0 0.75rem;
     }
 }
