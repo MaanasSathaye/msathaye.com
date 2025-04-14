@@ -47,8 +47,8 @@ export const POSTS: Post[] = [
   {
     id: 4,
     title: 'Some Thoughts on AI-Assisted Programming',
-    date: '2025-04-07',
-    topic: '',
+    date: '2025-04-14',
+    topic: 'engineering',
     slug: 'ai-assisted-coding',
     content: AAC()
   }
@@ -84,7 +84,7 @@ const Posts = () => {
           .map((post) => (
             <div key={post.id} className='post-line'>
               <span className='post-date'>{new Date(post.date).toISOString().split('T')[0]}</span>
-              <span className='separator'> - </span>
+              <span className='post-hyphen'>-</span>
               <a href={`/posts/${post.slug}`} className='post-title'>
                 {post.title}
               </a>
