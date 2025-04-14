@@ -44,7 +44,7 @@ body {
 
   .content-section,
   .page {
-    padding: 0;
+    padding: 0 1.5rem;
   }
 
   .page h1 {
