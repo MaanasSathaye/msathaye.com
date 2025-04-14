@@ -412,19 +412,13 @@ hr {
 
 .post-line {
   margin: 1rem 0;
-  display: grid;
-  grid-template-columns: 120px auto 1fr;
-  gap: 0.5rem;
+  display: flex;
   align-items: center;
+  gap: 0.5rem;
 }
 
 .post-date {
   color: #666;
-}
-
-.post-hyphen {
-  justify-self: center;
-  padding: 0 0.5rem;
 }
 
 .post-title {
