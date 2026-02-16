@@ -17,3 +17,12 @@
 .prose :where(hr) {
   border-color: #333;
 }
+
+.prose :where(thead, tbody tr, th, td, thead th) {
+  border-color: #333 !important;
+  border-bottom-color: #333 !important;
+}
+
+.prose :where(blockquote) {
+  color: #44403c !important;
+}
