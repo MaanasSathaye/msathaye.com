@@ -13,3 +13,7 @@
 .prose :where(ol > li)::marker {
   color: black;
 }
+
+.prose :where(hr) {
+  border-color: #333;
+}
