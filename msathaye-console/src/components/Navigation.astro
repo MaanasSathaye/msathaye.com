@@ -1,0 +1,26 @@
+---
+const currentPath = Astro.url.pathname
+const links = [
+  { href: '/', label: 'home' },
+  { href: '/about/', label: 'about' },
+  { href: '/posts/', label: 'posts' },
+]
+---
+
+<nav class="flex gap-6 mb-12 text-3xl md:text-4xl">
+  {
+    links.map(({ href, label }) => (
+      <a
+        href={href}
+        class:list={[
+          'no-underline transition-colors',
+          currentPath === href || (href !== '/' && currentPath.startsWith(href))
+            ? 'text-purple-deep font-semibold'
+            : 'text-black hover:text-purple-deep',
+        ]}
+      >
+        {label}
+      </a>
+    ))
+  }
+</nav>

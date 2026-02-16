@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme {
+  --color-purple-muted: #a1a5cc;
+  --color-purple-hover: #8f93b8;
+  --color-purple-deep: #8186a0;
+
+  --font-sans: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.prose :where(ul > li)::marker,
+.prose :where(ol > li)::marker {
+  color: black;
+}
+
+.prose :where(hr) {
+  border-color: #333;
+}
