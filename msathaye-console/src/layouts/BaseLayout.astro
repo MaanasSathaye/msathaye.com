@@ -1,0 +1,32 @@
+---
+import Navigation from '../components/Navigation.astro'
+import Footer from '../components/Footer.astro'
+import '../styles/global.css'
+
+interface Props {
+  title: string
+  description?: string
+}
+
+const { title, description = 'Personal blog of Maanas Sathaye' } = Astro.props
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/lc0.svg" />
+    <title>{title} | maanas</title>
+  </head>
+  <body class="min-h-screen bg-purple-muted text-black font-sans antialiased">
+    <div class="max-w-4xl mx-auto px-6 py-8">
+      <Navigation />
+      <main>
+        <slot />
+      </main>
+      <Footer />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import { Image } from 'astro:assets'
+import bigfoot from '../assets/smoking-bigfoot.png'
+import { getCollection } from 'astro:content'
+
+const posts = (await getCollection('posts'))
+  .sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf())
+  .slice(0, 3)
+---
+
+<BaseLayout title="home">
+  <div class="mb-12">
+    <h1 class="text-5xl font-bold mb-2">Maanas Sathaye</h1>
+    <p class="text-xl text-stone-800 mb-6">(maw-niss saw-tay)</p>
+    <Image
+      src={bigfoot}
+      alt="smoking bigfoot"
+      width={800}
+      class="w-full max-w-lg rounded-2xl shadow-md"
+    />
+  </div>
+
+  <section class="mt-12">
+    <h2 class="text-2xl font-semibold mb-6">Recent Posts</h2>
+    {
+      posts.map((post) => (
+        <a href={`/posts/${post.id}/`} class="block mb-4 group">
+          <time class="text-sm text-stone-800">
+            {new Date(post.data.date).toISOString().split('T')[0]}
+          </time>
+          <h3 class="text-lg group-hover:text-purple-deep transition-colors">
+            {post.data.title}
+          </h3>
+        </a>
+      ))
+    }
+  </section>
+</BaseLayout>
