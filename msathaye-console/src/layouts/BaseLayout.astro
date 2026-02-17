@@ -19,8 +19,13 @@ const { title, description = 'Personal blog of Maanas Sathaye' } = Astro.props
     <meta name="description" content={description} />
     <link rel="icon" type="image/svg+xml" href="/lc0.svg" />
     <title>{title} | maanas</title>
+    <script is:inline>
+      if (localStorage.getItem('theme') === 'dark') {
+        document.documentElement.classList.add('dark');
+      }
+    </script>
   </head>
-  <body class="min-h-screen bg-purple-muted text-black font-sans antialiased">
+  <body class="min-h-screen bg-purple-muted dark:bg-stone-800 text-black dark:text-purple-muted font-sans antialiased">
     <div class="max-w-4xl mx-auto px-6 py-8">
       <Navigation />
       <main>

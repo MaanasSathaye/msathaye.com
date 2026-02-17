@@ -7,14 +7,14 @@ const links = [
 ]
 ---
 
-<footer class="flex gap-4 mt-12 pt-6 border-t border-stone-700">
+<footer class="flex gap-4 mt-12 pt-6 border-t border-stone-700 dark:border-stone-600">
   {
     links.map(({ href, label, icon }) => (
       <a
         href={href}
         target="_blank"
         rel="noopener noreferrer"
-        class="text-stone-600 hover:text-purple-deep transition-colors"
+        class="text-stone-600 dark:text-purple-muted hover:text-purple-deep dark:hover:text-purple-hover transition-colors"
         aria-label={label}
       >
         {icon === 'github' && (
