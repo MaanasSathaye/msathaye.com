@@ -20,7 +20,7 @@ const topics = [
         <button
           class:list={[
             'topic-btn px-4 py-2 rounded text-sm transition-colors cursor-pointer',
-            t.slug === '' ? 'bg-purple-deep text-white font-semibold' : 'bg-purple-muted/30 hover:bg-purple-muted/50',
+            t.slug === '' ? 'bg-purple-deep dark:bg-purple-hover text-white font-semibold' : 'bg-purple-muted/30 dark:bg-stone-700 hover:bg-purple-muted/50 dark:hover:bg-stone-600',
           ]}
           data-topic={t.slug}
         >
@@ -36,13 +36,13 @@ const topics = [
         class="post-entry flex items-baseline gap-3 my-3"
         data-topic={post.data.topic}
       >
-        <time class="text-stone-800 text-sm shrink-0">
+        <time class="text-stone-800 dark:text-stone-400 text-sm shrink-0">
           {new Date(post.data.date).toISOString().split('T')[0]}
         </time>
-        <span class="text-stone-400">-</span>
+        <span class="text-stone-400 dark:text-stone-500">-</span>
         <a
           href={`/posts/${post.id}/`}
-          class="text-blue-700 hover:underline text-lg"
+          class="text-blue-700 dark:text-blue-400 hover:underline text-lg"
         >
           {post.data.title}
         </a>
@@ -59,11 +59,11 @@ const topics = [
         const topic = (btn as HTMLElement).dataset.topic
 
         buttons.forEach((b) => {
-          b.classList.remove('bg-purple-deep', 'text-white', 'font-semibold')
-          b.classList.add('bg-purple-muted/30')
+          b.classList.remove('bg-purple-deep', 'dark:bg-purple-hover', 'text-white', 'font-semibold')
+          b.classList.add('bg-purple-muted/30', 'dark:bg-stone-700')
         })
-        btn.classList.remove('bg-purple-muted/30')
-        btn.classList.add('bg-purple-deep', 'text-white', 'font-semibold')
+        btn.classList.remove('bg-purple-muted/30', 'dark:bg-stone-700')
+        btn.classList.add('bg-purple-deep', 'dark:bg-purple-hover', 'text-white', 'font-semibold')
 
         entries.forEach((entry) => {
           const el = entry as HTMLElement

@@ -1,6 +1,8 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
+@variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-purple-muted: #a1a5cc;
   --color-purple-hover: #8f93b8;
@@ -14,8 +16,17 @@
   color: black;
 }
 
+.dark .prose :where(ul > li)::marker,
+.dark .prose :where(ol > li)::marker {
+  color: #a1a5cc;
+}
+
 .prose :where(hr) {
   border-color: #333;
+}
+
+.dark .prose :where(hr) {
+  border-color: #78716c;
 }
 
 .prose :where(thead, tbody tr, th, td, thead th) {
@@ -23,6 +34,15 @@
   border-bottom-color: #333 !important;
 }
 
+.dark .prose :where(thead, tbody tr, th, td, thead th) {
+  border-color: #78716c !important;
+  border-bottom-color: #78716c !important;
+}
+
 .prose :where(blockquote) {
   color: #44403c !important;
+}
+
+.dark .prose :where(blockquote) {
+  color: #8f93b8 !important;
 }
